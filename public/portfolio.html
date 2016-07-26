@@ -1,0 +1,62 @@
+<DOCTYPE! html>
+<html>
+	<header>
+		<title> Jonathan Odgis </title>
+		<link rel="stylesheet" type="text/css" href="styles/main.css">
+    <script type="text/javascript" src="scripts/myJQuery.js"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.2.0/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.2.0/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.16/browser.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/remarkable/1.6.2/remarkable.min.js"></script>            
+	</header>
+
+	<body>
+		<div class="nav">	
+		  <div class = "logo">
+			<img src="images/Jonathan-Odgis-Logo.png">
+		  </div>
+				
+		  <ul class="links">
+		  	<li class = "link" onclick="location.href='index.html';">
+		      Home
+		    </li>
+		    <li class = "link" onclick="location.href='about.html';">
+		      About
+		   	</li>
+		    <li class = "link hoverable" onclick="location.href='portfolio.html';">
+		      Portfolio
+		   	</li>
+		    <li class = "link" onclick="location.href='contact.html';">
+		      Contact 
+		   	</li>		   			   	
+		  </ul>
+		</div>
+
+
+		<div class = "info-box fadeable">
+	  	  <h1>
+	  	  	Portfolio
+	  	  </h1>
+		  <div class = "text">
+		    <div id='portfolio-items'></div>  		  		  
+    	  <script type="text/babel" src="scripts/PortfolioItem.js"></script>
+		  </div>
+		</div>
+
+		<div class="footer-box">
+			<div class = "footer_social-media-icons"> 
+			    <div class = "footer_social-media-info"> 
+			    	<a href = "https://www.linkedin.com/in/jonathan-odgis-17343093"><img src="images/linkedin_icon.ico"/></a>
+			    </div>
+			    <div class = "footer_social-media-info"> 
+                    <a href = "https://github.com/JonathanOdgis"><img src="images/Github-Mark.png"/></a>
+			    </div>
+			    <div class = "footer_social-media-info"> 
+                    <a href = "https://bitbucket.org/JonathanOdgis/"><img src="images/bitbucket-icon-2.png"/></a>
+			    </div>
+			</div>
+			<p> Copyright 2016 </p>
+		</div>								
+	</body>	    
+</html>
